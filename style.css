@@ -1,0 +1,92 @@
+body {
+    background-image: url('wallpaper_2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    color: white;
+}
+
+h2 {
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 27px;
+    border-radius: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+    text-shadow: 2px 2px #414048;
+
+}
+
+.clock {
+    display: flex;
+
+}
+
+.clock div {
+    margin: 5px;
+    margin-top: 260px;
+    position: relative;
+    border-radius: 20%;
+    background: #141111;
+    box-shadow: inset 5px -5px 13px #f3e5e58b,
+        inset -5px 5px 13px #d8d2d2a7;
+
+
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    font-weight: bold;
+    opacity: .8;
+    color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 5px;
+
+
+
+
+}
+
+.time {
+
+    align-items: center;
+}
+
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+.clock #ampm {
+    bottom: 0px;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0, 0.418);
+
+    border-radius: 40%;
+    background: #141111;
+    box-shadow: inset 5px -5px 13px #f3e5e58b,
+        inset -5px 5px 13px #d8d2d2a7;
+    align-items: center;
+
+
+}
